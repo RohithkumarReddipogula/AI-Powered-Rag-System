@@ -1,0 +1,35 @@
+# ─── Stage 1: Build dependencies ────────────────────────────────────────────
+FROM python:3.11-slim AS builder
+
+WORKDIR /build
+COPY requirements.txt .
+RUN pip install --no-cache-dir --prefix=/install -r requirements.txt
+
+# ─── Stage 2: Runtime image ───────────────────────────────────────────────────
+FROM python:3.11-slim AS runtime
+
+LABEL maintainer="Rohith Kumar Reddipogula"
+LABEL description="AI-Powered RAG System — FastAPI Backend"
+LABEL version="1.0.0"
+
+WORKDIR /app
+
+# Copy installed packages from builder stage
+COPY --from=builder /install /usr/local
+
+# Copy application code
+COPY app/ ./app/
+COPY indices/ ./indices/
+COPY data/ ./data/
+
+# Pre-download E5 model weights at build time (avoids cold-start delay)
+RUN python -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('intfloat/e5-base-v2')"
+
+# Non-root user for security
+RUN useradd -m -u 1000 appuser && chown -R appuser:appuser /app
+USER appuser
+
+EXPOSE 8000
+
+# Startup: index load ~5s + model load ~10s + FastAPI ~2s = ready in <30s
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000", "--workers", "1"]
