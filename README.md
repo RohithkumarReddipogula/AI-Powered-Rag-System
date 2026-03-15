@@ -4,9 +4,9 @@
 <h3>Production-Grade Hybrid Retrieval-Augmented Generation</h3>
 
 <p>
-  <a href="https://github.com/rohithkumarreddipogula/ai-powered-rag-system/actions">
-    <img src="https://github.com/rohithkumarreddipogula/ai-powered-rag-system/actions/workflows/ci.yml/badge.svg" alt="CI">
-  </a>
+  <a href="https://github.com/RohithkumarReddipogula/AI-Powered-Rag-System/actions">
+  <img src="https://github.com/RohithkumarReddipogula/AI-Powered-Rag-System/actions/workflows/ci.yml/badge.svg" alt="CI">
+</a>
   <a href="https://www.python.org/downloads/release/python-3110/">
     <img src="https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white" alt="Python">
   </a>
