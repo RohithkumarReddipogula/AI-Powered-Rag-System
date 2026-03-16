@@ -23,10 +23,10 @@
 </p>
 
 <p>
-  <a href="https://sage-bunny-d1e261.netlify.app"><strong>🌐 Live Demo</strong></a> ·
-  <a href="#-quick-start"><strong>🚀 Quick Start</strong></a> ·
-  <a href="RESULTS.md"><strong>📊 Full Results</strong></a> ·
-  <a href="https://arxiv.org/abs/2507.18910"><strong>📄 Referenced Paper</strong></a>
+  <a href="https://sage-bunny-d1e261.netlify.app"><strong> Live Demo</strong></a> ·
+  <a href="#-quick-start"><strong> Quick Start</strong></a> ·
+  <a href="RESULTS.md"><strong> Full Results</strong></a> ·
+  <a href="https://arxiv.org/abs/2507.18910"><strong> Referenced Paper</strong></a>
 </p>
 
 <br>
@@ -72,7 +72,7 @@ This work directly addresses six research gaps identified in the RAG survey [Och
 | **0.7** | **Hybrid (optimal)** | **93.0%** | **1.0** | **+13.9% ★** |
 | 1.0 | E5 only | 82.5% | 0.85 | +1.1% |
 
-α = 0.70 vs α = 0.50: **t(99) = 3.14, p = 0.002** ✅
+α = 0.70 vs α = 0.50: **t(99) = 3.14, p = 0.002** 
 
 </details>
 
@@ -167,9 +167,9 @@ docker-compose up --build
 
 | Service | URL |
 |---------|-----|
-| 🖥️ Streamlit UI | http://localhost:8501 |
-| ⚡ FastAPI | http://localhost:8000 |
-| 📖 API Docs | http://localhost:8000/docs |
+| Streamlit UI | http://localhost:8501 |
+| FastAPI | http://localhost:8000 |
+| API Docs | http://localhost:8000/docs |
 
 ### Option 2: Local Python
 
