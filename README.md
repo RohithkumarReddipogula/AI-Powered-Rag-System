@@ -193,7 +193,9 @@ streamlit run frontend/app.py
 
 ### Option 3: Try the live demo
 
-👉 **[https://sage-bunny-d1e261.netlify.app](https://sage-bunny-d1e261.netlify.app)**
+👉 **https://rohith2026-hybrid-rag-demo.hf.space**
+
+👉 **API: https://rohith2026-hybrid-rag-api.hf.space/docs**
 
 ---
 
