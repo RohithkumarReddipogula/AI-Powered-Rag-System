@@ -17,13 +17,17 @@
     <img src="https://img.shields.io/badge/Docker-ready-2496ED?logo=docker&logoColor=white" alt="Docker">
   </a>
   <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License">
-  <a href="https://sage-bunny-d1e261.netlify.app">
-    <img src="https://img.shields.io/badge/Live_Demo-online-brightgreen?logo=netlify" alt="Demo">
+  <a href="https://rohith2026-hybrid-rag-demo.hf.space">
+    <img src="https://img.shields.io/badge/Live_Demo-online-brightgreen?logo=huggingface" alt="Demo">
+  </a>
+  <a href="https://rohith2026-hybrid-rag-api.hf.space/docs">
+    <img src="https://img.shields.io/badge/API_Docs-online-blue?logo=fastapi" alt="API">
   </a>
 </p>
 
 <p>
-  <a href="https://sage-bunny-d1e261.netlify.app"><strong> Live Demo</strong></a> ·
+  <a href="https://rohith2026-hybrid-rag-demo.hf.space"><strong> Live Demo</strong></a> ·
+  <a href="https://rohith2026-hybrid-rag-api.hf.space/docs"><strong> API Docs</strong></a> ·
   <a href="#-quick-start"><strong> Quick Start</strong></a> ·
   <a href="RESULTS.md"><strong> Full Results</strong></a> ·
   <a href="https://arxiv.org/abs/2507.18910"><strong> Referenced Paper</strong></a>
