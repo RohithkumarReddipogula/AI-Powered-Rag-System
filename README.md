@@ -424,6 +424,6 @@ This work addresses gaps identified in:
 Built by **Rohith Kumar Reddipogula**
 MSc Data Science · University of Europe for Applied Sciences, Potsdam · 2026
 
-[LinkedIn](https://linkedin.com/in/rohithkumarreddipogula) · [Demo](https://sage-bunny-d1e261.netlify.app) · [Email](mailto:rohith.reddipogula@gmail.com)
+[LinkedIn](https://linkedin.com/in/rohithkumarreddipogula) · [Demo](rohith2026-hybrid-rag-demo.hf.space) · [Email](mailto:rohith.reddipogula@gmail.com)
 
 </div>
