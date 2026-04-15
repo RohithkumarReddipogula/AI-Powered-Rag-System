@@ -413,4 +413,4 @@ This work addresses gaps identified in:
 
 Built by Rohith Kumar Reddipogula — MSc Data Science, University of Europe for Applied Sciences, Potsdam, 2026.
 
-Open to ML Engineer, NLP Engineer, and AI Engineer roles in Berlin — [LinkedIn](https://www.linkedin.com/in/rohith-kumar-reddipogula-a6692030b/) · [Email](mailto:rohith.reddipogula@gmail.com)
+Open to ML Engineer, NLP Engineer, and AI Engineer roles — [LinkedIn](https://www.linkedin.com/in/rohith-kumar-reddipogula-a6692030b/) · [Email](mailto:rohith.reddipogula@gmail.com)
