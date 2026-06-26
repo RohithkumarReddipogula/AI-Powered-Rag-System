@@ -1,12 +1,12 @@
 # AI-Powered RAG System
-
+z
 [![CI](https://github.com/RohithkumarReddipogula/AI-Powered-Rag-System/actions/workflows/ci.yml/badge.svg)](https://github.com/RohithkumarReddipogula/AI-Powered-Rag-System/actions)
 [![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.104-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
 [![Docker](https://img.shields.io/badge/Docker-ready-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow)](LICENSE)
 [![Live Demo](https://img.shields.io/badge/Live_Demo-online-brightgreen?logo=huggingface)](https://rohith2026-hybrid-rag-demo.hf.space)
-[![API Docs](https://huggingface.co/spaces/ROHITHKUMARREDDIOGULa/Hybrid-RAG-API)
+[![API Docs] (https://huggingface.co/spaces/ROHITHKUMARREDDIOGULa/Hybrid-RAG-API)
 [![Setup Guide](https://img.shields.io/badge/Setup_Guide-Netlify-00C7B7?logo=netlify&logoColor=white)](https://sage-bunny-d1e261.netlify.app)
 
 A **production-grade Hybrid Retrieval-Augmented Generation system** combining BM25 sparse retrieval with Microsoft E5 dense embeddings, evaluated on 8.84M MS MARCO passages. Built as my MSc Data Science thesis at the University of Europe for Applied Sciences, Potsdam (2026).
