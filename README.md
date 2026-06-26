@@ -183,7 +183,7 @@ streamlit run frontend/app.py
 HuggingFace Spaces may take around 30 seconds to load on first visit.
 
 - Interactive UI: https://rohith2026-hybrid-rag-demo.hf.space
-- API documentation: https://rohith2026-hybrid-rag-api.hf.space/docs
+- API documentation: https://huggingface.co/spaces/ROHITHKUMARREDDIOGULa/Hybrid-RAG-API
 - Setup guide: https://sage-bunny-d1e261.netlify.app
 
 ---
